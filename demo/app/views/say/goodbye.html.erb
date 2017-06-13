@@ -1,0 +1,11 @@
+<h1>Goodbye!</h1>
+<p>
+<ul>
+<% @files.each  do |x|%>
+<li><%= x %></li>
+<% end %>
+</ul>
+</p>
+<p>
+<%= link_to "GoTo Hello", say_hello_path %>
+</p>
